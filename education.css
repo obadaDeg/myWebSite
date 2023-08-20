@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    /* background-color: rgb(23, 23, 23); */
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(23, 23, 23);
+    width: 100%;
+    padding: 25px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.theLogo {
+    font-size: 2em;
+    color: rgb(206, 199, 230);
+    cursor: default;
+}
+
+.theLogo span {
+    color: rgb(49, 179, 110);
+}
+
+.navigation {
+    margin-left: -300px;
+}
+
+.navigation a {
+    font-size: 1.1em;
+    color: rgb(206, 199, 230);
+    text-decoration: none;
+    margin-right: 40px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.navigation a:hover {
+    color: rgb(37, 178, 94);
+}
+
+
+.icons {
+    position: absolute;
+    bottom: 50px;
+}
+
+.icons a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(23, 23, 23);
+    border-radius: 50%;
+    margin-right: 20px;
+    text-align: center;
+    line-height: 37px;
+    border: 2px solid rgb(206, 199, 230);
+    outline: 2px solid rgb(49, 179, 110);
+    transition: 0.3s;
+}
+
+.icons a i {
+    color: rgb(206, 199, 230);
+}
+
+.icons a :hover {
+    transform: translateY(-3px);
+}
+
+footer {
+    background-color: rgb(23, 23, 23);
+}
